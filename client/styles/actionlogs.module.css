@@ -1,0 +1,135 @@
+.Table{
+    width: 85vw;
+    height: 60vh;
+    background: white;
+    margin-top: 0px;
+    margin-left: 10px;
+    display: inline-block;
+    color: black;
+    }
+
+.Table tr td{
+    border-top: 1px lightblue solid;
+    padding: 15px 50px 15px 270px;
+}
+    
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: lightblue;   
+    float: left;
+  }
+
+.list__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.pagination__item{
+    color: black;
+    float: left;
+    padding:  12px 18px;
+    border-radius: 50%;
+    background: silver;
+}
+
+.current__pagination__item{
+    background: white;
+}
+
+.pagination__item:hover{
+    background: #ddd;
+    cursor: pointer;
+}
+
+.label{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: x-large;
+    color: black;
+}
+
+
+.search__btn{
+    float: right;
+    width: 60px;
+    height: 33px;
+    margin-top: 3px;
+    margin-right: 20px;
+}
+
+.link_db{
+    color: blue;
+}
+
+.manager{
+    padding: 10px;
+    color: black;
+}
+
+.menu{
+    float: left;
+    background: white;
+    width: 230px;
+    height: 101vh;
+    border-right: 1px solid blue;
+    margin-top: -10px;
+}
+
+.ol{
+    margin-left: -20px;
+}
+
+.ol li{
+    list-style-type: none;
+    padding: 10px;
+    color: silver;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.name_user{
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: right;
+    height: 40px;
+}
+
+.img{
+    width: 25px;
+    height: 20px;
+    padding: 0 5px 0 0 ;
+}
+
+.search{
+    width: 300px;
+    height: 33px;
+    float: right;
+    margin-top: 3px;
+    margin-right: 20px;
+    border: none;
+}
+
+.container_table{
+    width: 100vw;
+    height: 100vh;
+    background: lightblue;
+    text-align: center;
+    justify-content: center;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu_logo{
+    float: left;
+    background: white;
+    height: 100vh;
+}

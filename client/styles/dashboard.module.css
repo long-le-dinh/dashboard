@@ -1,0 +1,179 @@
+.Table{
+    width: 1000px;
+    height: 500px;
+    background: white;
+    margin-top: 0px;
+    display: inline-block;
+    color: black;
+    }
+
+    .Table tr td{
+        border-top: 1px lightblue solid;
+        padding: 15px 50px 15px 30px;
+    }
+
+.container{
+    width: 100vw;
+    height: 60vh;
+    background: lightblue;   
+    float: left;
+  }
+
+.list__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.link_db{
+    color: blue;
+}
+
+.manager{
+    padding: 10px;
+    color: black;
+}
+
+.menu{
+    float: left;
+    background: white;
+    width: 230px;
+    height: 100vh;
+    border-right: 1px solid blue;
+    margin-top: -10px;
+}
+
+.ol{
+    margin-left: -20px;
+}
+
+.ol li{
+    list-style-type: none;
+    padding: 10px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.name_user{
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: right;
+    height: 40px;
+}
+
+.img{
+    width: 25px;
+    height: 20px;
+    padding: 0 5px 0 0 ;
+}
+
+.container_table{
+    width: 100vw;
+    height: 95vh;
+    background: lightblue;
+    text-align: center;
+    justify-content: center;
+}
+
+.Chart{
+    width: 350px;
+    height: 405px;
+    background: white;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.form_add{
+    width: 620px;
+    height: 325px;
+    background: white;
+    margin-left: 30px;
+    padding-top: 80px;
+}
+
+.btn_add{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(238, 112, 238);
+    color: black;
+    font-weight: bold;
+}
+
+.form_text::placeholder{
+    color: white;
+    text-indent: 20px;
+}
+
+.btn_add:hover{
+    background: rgb(96, 96, 250);
+    color: white;
+}
+
+.btn_add:active{
+    background: blue;
+}
+
+.form_text{
+    margin-bottom: 30px;
+}
+
+.form_text input{
+    width: 70%;
+    height: 50px;
+    border: none;
+    background-color: lightblue;
+    border-radius: 5px;
+    text-indent: 20px;
+}
+
+.menu_logo{
+    float: left;
+    background: white;
+    height: 99vh;
+}
+
+
+
+@media screen and (max-width: 413px) {
+    .menu{
+        display: none;
+        position: absolute;
+    }
+
+    .Table{
+        display: none;
+    }
+
+    .section2{
+        display: block;
+        width: 100%;
+    }
+
+    .Chart{
+        width: 100%;
+        display: block;
+    }
+
+    .form_add{
+        width: 100%;
+        display: block;
+        margin-left: 0;
+    }
+
+    .container{
+        width: 100%;
+    }
+    
+    .menu_logo{
+        height: 3vh;
+    }
+
+    
+}
